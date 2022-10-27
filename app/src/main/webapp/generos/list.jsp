@@ -1,3 +1,5 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,7 +12,7 @@
 <body>
     <main class="container">
         <h1>Gêneros</h1>
-        <a class="btn btn-primary" href=""/generos/insert>Adicionar Gênero</a>
+        <a class="btn btn-primary" href="/generos/insert">Adicionar Gênero</a>
         <table class="table">
             <td>
                 <th>ID</th>
